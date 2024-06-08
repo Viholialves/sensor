@@ -1,0 +1,76 @@
+body {
+  background-image: url("../img/ff.jpeg") ;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#container-imagens {
+  margin-top: 50px;
+  padding-left: 20px;
+
+}
+
+.imagem-pequena {
+  width: 100px;
+  height: auto;
+  position: fixed;
+  cursor: pointer;
+}
+
+#imagem1 { top: 10px; right: 10px; }
+#imagem2 { top: 110px; right: 10px; }
+#imagem3 { top: 210px; right: 10px; }
+#imagem4 { top: 310px; right: 10px; }
+#imagem5 { top: 410px; right: 10px; }
+
+#mensagem-container {
+  display: none;
+  padding: 10px;
+  background-color: #0c587d;
+  border: 1px solid #ffffff;
+  width: 390px; /*espaço do quadrado da localização*/
+  text-align: center;
+  margin-top: 20px;
+}
+
+#mensagem-superior-inferior-container {
+  display: none;
+  margin-top: 20px;
+  display: none;
+  justify-content: space-around;
+}
+
+.mensagem-superior-inferior {
+  padding: 20px;
+  background-color: #87cefa;
+  border: 2px solid #000080;
+  border-radius: 10px;
+  width: 150px;
+  text-align: center;
+  margin: 10px;
+}
+
+#mensagem-superior1, #mensagem-superior2, #mensagem-superior3, #mensagem-superior4 {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+#mensagem-inferior1, #mensagem-inferior2, #mensagem-inferior3, #mensagem-inferior4 {
+  margin-top: 10px;
+  font-style: italic;
+}
+
+#imagem-inferior-container {
+  display: none;
+  margin-top: 20px;
+}
+
+#imagem-inferior {
+  width: 800px;
+  height: auto;
+}
